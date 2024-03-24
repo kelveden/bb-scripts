@@ -1,6 +1,5 @@
 #!/usr/bin/env bb
 (require '[babashka.curl :as curl]
-         '[clojure.pprint :refer [pprint]]
          '[cheshire.core :as json])
 
 (def ^:private result-count 24)
